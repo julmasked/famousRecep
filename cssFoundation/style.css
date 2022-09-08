@@ -1,0 +1,74 @@
+.Site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  .Site-content {
+    flex: 1;
+  }
+  
+  /* Stlyes to make the demo easier to see: */
+  body { margin: 0; }
+  header { 
+    background-color: #1F2937;
+    height: 180;
+
+ }
+  main { background-color: #DFDD; }
+  footer { 
+      background-color: #049e8c;
+      height: 30pt;
+      text-align: right;
+      bottom: 0;
+  }
+  .logo {
+    margin-left: 110;
+    color: #F9FAF8;
+    text-size-adjust: 24px;
+    font-style: normal;
+    margin-top: 22;
+
+  }
+  .links{
+    margin-right: 110;
+    color:#E5E7EB ;
+    list-style-type: none;
+    overflow: hidden;
+    float: right;
+    margin-top: -30;
+  }
+  .links li{
+    float: left;
+    padding: 14px 16px;
+    text-size-adjust: 18px;
+  }
+  .row { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+   
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+  
+.blue-column {
+    margin-left: 110;
+    height: 100px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+  }
+  
+  .green-column {
+    margin-right: 110;
+    background-color: rgb(177, 205, 177);
+    height: 100px;
+    
+  }
